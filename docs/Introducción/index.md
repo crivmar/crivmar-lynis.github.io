@@ -7,6 +7,7 @@ has_toc: false
 ---
 
 # Contenido
+{: .no_toc }
 
 * ¿Qué es Lynis?
 
