@@ -8,8 +8,8 @@ has_toc: false
 
 # Contenido
 
-* [¿Qué es Lynis?](que_es_lynis.md)
+* ¿Qué es Lynis?
 
-* [Uso de Lynis](./Uso\ de\ Lynis/index.md)
+* Uso de Lynis
 
-* [Comparación con otras herramientas]
+* Comparación con otras herramientas
