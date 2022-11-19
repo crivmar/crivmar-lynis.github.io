@@ -3,13 +3,13 @@ layout: default
 title: Introducción
 nav_order: 2
 has_children: true
+has_toc: false
 ---
 
-# Navigation Structure
-{: .no_toc }
+# Contenido
 
-## Contenido
-{: .no_toc .text-delta }
+* [¿Qué es Lynis?](que_es_lynis.md)
 
-1. TOC
-{:toc}
+* [Uso de Lynis](./Uso\ de\ Lynis/index.md)
+
+* [Comparación con otras herramientas]
