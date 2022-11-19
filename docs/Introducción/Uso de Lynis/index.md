@@ -7,8 +7,6 @@ has_children: true
 ---
 
 
-| Contenido    |
-|:-------------|
-| Auditoría de seguridad |
-| Pruebas de cumplimiento |
-| Pruebas de penetración y endurecimiento |
+* Auditoría de seguridad 
+* Pruebas de cumplimiento 
+* Pruebas de penetración y endurecimiento

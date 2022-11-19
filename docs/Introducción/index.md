@@ -5,9 +5,11 @@ nav_order: 2
 has_children: true
 ---
 
+# Navigation Structure
+{: .no_toc }
 
-| Contenido    |
-|:-------------|
-| ¿Qué es Lynis? |
-| Uso de Lynis |
-| Comparación con otras herramientas |
+## Contenido
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
