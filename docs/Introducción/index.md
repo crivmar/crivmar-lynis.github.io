@@ -3,6 +3,7 @@ layout: default
 title: Introducción
 nav_order: 2
 has_children: true
+has_toc: false
 ---
 
 # Introducción
@@ -11,7 +12,9 @@ has_children: true
 ## Contenido
 {: .no_toc .text-delta }
 
-1. TOC
+1. ¿Qué es Lynis?
+2. Uso de Lynis
+3. Comparación con otras herramientas
 {:toc}
 
 ---
