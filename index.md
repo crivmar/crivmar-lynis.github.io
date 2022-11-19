@@ -1,6 +1,6 @@
 ---
 title: Inicio
-layout: Inicio
+layout: home
 ---
 
 ![](img/logo.jpg)
