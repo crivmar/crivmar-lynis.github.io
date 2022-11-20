@@ -7,13 +7,14 @@ has_toc: false
 ---
 
 # Introducción
-{: .no_toc }
 
-## Contenido
+## Información sobre `Lynis` y su uso.
+
+### Contenido
 
 - [¿Qué es Lynis?]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Introducción/que_es_lynis.md %})
 
+- [Uso de Lynis]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Introducción/Uso\ de\ Lynis/index.md %})
 
 
----
 
