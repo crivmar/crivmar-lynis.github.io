@@ -64,7 +64,7 @@ sudo apt install lynis -y
 
 Tras esto comprobamos su versión, recordando que para usar el programa hacen falta **privilegios de administrador**:
 
-![](assets/images/02.png)
+![](../../assets/images/02.png)
 
 Si vamos a su manual, nos mostrará las opciones que podemos hacer con unas pequeñas descripciones:
 
