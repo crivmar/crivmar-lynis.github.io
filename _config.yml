@@ -68,6 +68,9 @@ mermaid:
 # Enable or disable heading anchors
 heading_anchors: true
 
+# Set a path/url to a logo that will be displayed instead of the title
+logo: "img/avatar.png"
+
 # Footer content
 # appears at the bottom of every page's main content
 

@@ -3,6 +3,7 @@ layout: default
 title: Introducción
 nav_order: 2
 has_children: true
+has_toc: false
 ---
 
 # Introducción
@@ -13,8 +14,9 @@ has_children: true
     Contenido
   </summary>
   {: .text-delta }
-- TOC
+- [¿Qué es Lynis?]({% post_url https://crivmar.github.io/crivmar-lynis.github.io/docs/Introducci%C3%B3n/que_es_lynis/ %})
 {:toc}
 </details>
 
 ---
+
