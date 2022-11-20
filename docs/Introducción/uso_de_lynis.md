@@ -18,11 +18,13 @@ has_toc: false
 - <h2 id="Pruebas de penetración y endurecimiento">Prueba de penertración y endurecimiento</h2>
 </details>
 
+<div>
 **Lynis** es modular y oportunista, esto quiere decir que sólo utilizará y probará los componentes que pueda encontrar en el sistema, como servicios habilitados, bibliotecas de controladores, etc. Tiene la ventaja de que no necesita instalar otras herramienta, manteniendo el sistema más limpio.
 
 Al realizar con esta herramienta el escaneo, puede funcionar casi sin dependencias adicionales; añadido a que cuanto más componentes descubra, más extensa será la auditoría.
 
 A continuación se da una breve explicación en terminología y en procesos que realiza esta herramienta y a qué va enfocada.
+</div>
 
 ## Auditoria de seguridad
 

@@ -8,7 +8,7 @@ has_toc: false
 
 # Introducción
 
-## Información sobre `Lynis` y su uso.
+## Información sobre Lynis y su uso.
 
 ### Contenido
 
