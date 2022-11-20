@@ -14,7 +14,7 @@ has_toc: false
     Contenido
   </summary>
   {: .text-delta }
-- [¿Qué es Lynis?]({% post_url https://crivmar.github.io/crivmar-lynis.github.io/docs/Introducci%C3%B3n/que_es_lynis/ %})
+- [¿Qué es Lynis?]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Introducción/que_es_lynis.md %})
 {:toc}
 </details>
 
