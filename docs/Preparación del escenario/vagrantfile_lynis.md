@@ -64,7 +64,7 @@ sudo apt install lynis -y
 
 Tras esto comprobamos su versión, recordando que para usar el programa hacen falta **privilegios de administrador**:
 
-<img src="https://github.com/crivmar/crivmar-lynis.github.io/blob/main/img/02.png" />
+![](img/02.png)
 
 Si vamos a su manual, nos mostrará las opciones que podemos hacer con unas pequeñas descripciones:
 
