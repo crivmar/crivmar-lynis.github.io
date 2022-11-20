@@ -14,7 +14,7 @@ Es el momento de auditar este sistema y comprobar el poder bruto de la herramien
 sudo lynis --view-categories
 ~~~
 
-![](/img/03.png)
+![](../../img/03.png)
 
 Como vemos hace una gran cantidad de test, ya iremos entrando en estas categorías con la primera pasada de este programa. Vamos a hacerlo usando algunas opciones:
 
