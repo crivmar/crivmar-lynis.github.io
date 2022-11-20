@@ -16,6 +16,6 @@ Al realizar con esta herramienta el escaneo, puede funcionar casi sin dependenci
 
 ## Contenido
 
-- [Auditoria de seguridad]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Introducción/Uso\ de\ Lynis/auditoria_de_seguridad.md %})
+- [Auditoria de seguridad]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Introducción/Uso de Lynis/auditoria_de_seguridad.md %})
 
-- [Pruebas de cumplimiento]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Introducción/Uso\ de\ Lynis/ %})
+- [Pruebas de cumplimiento]
