@@ -14,7 +14,7 @@ has_toc: false
 
 - [¿Qué es Lynis?]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Introducción/que_es_lynis.md %})
 
-- [Uso de Lynis]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Introducción/Uso de Lynis/index.md %})
+- [Uso de Lynis]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Introducción/uso_de_lynis.md %})
 
 
 
