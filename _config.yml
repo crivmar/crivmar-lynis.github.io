@@ -69,7 +69,7 @@ mermaid:
 heading_anchors: true
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "img/avatar.png"
+#logo: "img/avatar.png"
 
 # Footer content
 # appears at the bottom of every page's main content
@@ -117,6 +117,7 @@ plugins:
   - jekyll-seo-tag
 
 kramdown:
+  auto_ids: true
   syntax_highlighter_opts:
     block:
       line_numbers: false
