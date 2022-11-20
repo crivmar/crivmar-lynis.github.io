@@ -13,7 +13,7 @@ Esta consideración es muy subjetiva y depende de las necesidades de tu sistema,
 
 ### Bastille
 
-Es una herramienta de endurecimiento (`hardening`) para sistemas operativos Linux, durante mucho tiempo fue muy conocida y trabaja de manera automática cuando se ejecuta. Esta herramienta ejecuta unos ajustes prefijados y esto puede llegar a dar una falsa sensación de seguridad, ya que no audita más allá de los parámetros fijados.
+Es una herramienta de endurecimiento (`hardening`) para sistemas operativos Linux, durante mucho tiempo fue muy conocida y trabaja de manera automática cuando se ejecuta. Esta herramienta ejecuta unos ajustes prefijados y esto puede llegar a dar una falsa sensación de seguridad, ya que no audita más allá de estos parámetros.
 
 Ventajas de `Lynis` frente a `Bastille`:
 
@@ -38,11 +38,10 @@ Ventajas de `Lynis` frente a `OpenVAS` y `Nessus` :
 * Menor riesgo de interrumpir tus servicios en producción.
 
 
-
 ### Tiger
 
 `Tiger` es una colección gratuita y de código abierto de `scripts shell` para auditorías de seguridad y detección de intrusiones en la máquina, para sistemas tipo `Unix` como `Linux`. Es un comprobador de seguridad escrito enteramente en lenguaje `shell` y emplea varias herramientas `POSIX`. Su propósito principal es comprobar la configuración y el estado del sistema.
 
-Es muy extensible que las otras herramientas de seguridad, y tiene un buen archivo de configuración. Analiza los archivos de configuración del sistema, los sistemas de archivos y los archivos de configuración del usuario en busca de posibles problemas de seguridad e informa sobre lo detectado.
+Es más extensible que las otras herramientas de seguridad mencionadas y tiene un buen archivo de configuración. Analiza los archivos de configuración del sistema, los sistemas de archivos y los archivos de configuración del usuario en busca de posibles problemas de seguridad e informa sobre lo detectado.
 
 Es similar a `Lynis`, como vemos, pero la mayor diferencia es que la herramienta propuesta sigue en mantenimiento y soporta nuevas tecnologías, `Tiger` no.
