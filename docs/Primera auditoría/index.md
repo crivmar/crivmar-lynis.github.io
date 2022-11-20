@@ -35,14 +35,3 @@ Como el resultado que nos arroja es bastante extenso, vamos a ir bloque a bloque
 
 - [Bloque 1 - Inicio del programa]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque1.md %})
 
-- [Bloque 2 - Herramientas del sistemas]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque2.md %})
-
-- [Bloque 3 - Arranque del sistema y servicios ]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque3.md %})
-
-- [Bloque 4 - Kernel ]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque4.md %})
-
-- [Bloque 5 - Memoria y procesos ]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque5.md %})
-
-- [Bloque 6 - Usuarios, grupos y autenticación ]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque6.md %})
-
-- [Bloque 7 - Shells, sistema de archivos y almacenamiento ]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque7.md %})
