@@ -2,6 +2,7 @@
 layout: default
 title: Auditoria de seguridad
 parent: Uso de Lynis
+grant_parent: Introducción
 nav_order: 1
 ---
 
