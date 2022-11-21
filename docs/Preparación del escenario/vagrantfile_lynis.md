@@ -69,7 +69,8 @@ Tras esto comprobamos su versión, recordando que para usar el programa hacen fa
 Si vamos a su manual, nos mostrará las opciones que podemos hacer con unas pequeñas descripciones:
 
 ~~~
-Lynis(8)                                                               Unix System Administrator's Manual                                                               Lynis(8)
+
+Lynis(8)                Unix System Administrator's Manual                Lynis(8)
 
 
 
@@ -80,8 +81,10 @@ SYNOPSIS
        lynis --check-all(-c) [other options]
 
 DESCRIPTION
-       Lynis  is  an auditing tool for Unix (specialists). It checks the system and software configuration and logs all the found information into a log file for debugging pur‐
-       poses, and in a report file suitable to create fancy looking auditing reports.  Lynis can be run as a cronjob, or from the command line. It needs to have full access  to
+       Lynis  is  an auditing tool for Unix (specialists). It checks the system and software 
+       configuration and logs all the found information into a log file for debugging pur‐
+       poses, and in a report file suitable to create fancy looking auditing reports.  Lynis can 
+       be run as a cronjob, or from the command line. It needs to have full access  to
        the system, so running it as root (or with sudo rights) is required.
 
        The following system areas may be checked:
@@ -96,11 +99,13 @@ DESCRIPTION
 
 OPTIONS
        --auditor <full name>
-              Define the name of the auditor/pen-tester. When a full name is used, add double quotes, like "Michael Boelen".
+              Define the name of the auditor/pen-tester. When a full name is used, add double 
+              quotes, like "Michael Boelen".
 
 
        --checkall (or -c)
-              Lynis  performs  a  full  check  of  the system, printing out the results of each test to stdout. Additional information will be saved into a log file (default is
+              Lynis  performs  a  full  check  of  the system, printing out the results of each 
+              test to stdout. Additional information will be saved into a log file (default is
               /.
 
               In case the outcome of a scan needs to be automated, use the report file.
@@ -118,13 +123,15 @@ OPTIONS
               Do not use colors for messages, warnings and sections.
 
        --no-log
-              Redirect all logging information to /dev/null, prevent sensitive information to be written to disk.
+              Redirect all logging information to /dev/null, prevent sensitive information to 
+              be written to disk.
 
        --quick (-Q)
               Do a quick scan (don't wait for user input)
 
        --quiet (-q)
-              Try to run as silent as possible, showing only warnings. This option activates --quick as well.
+              Try to run as silent as possible, showing only warnings. This option activates 
+              --quick as well.
 
        --reverse-colors
               Optimize screen output for light backgrounds.
@@ -135,7 +142,8 @@ OPTIONS
        --view-categories
               Display all available test categories
 
-       Multiple parameters are allowed, though some parameters can only be used together with others. When running Lynis without any parameters, help will be shown and the pro‐
+       Multiple parameters are allowed, though some parameters can only be used together with others. 
+       When running Lynis without any parameters, help will be shown and the pro‐
        gram will exit.
 
 BUGS
@@ -149,6 +157,6 @@ CONTACT INFORMATION
 
 
 
-1.10                                                                            24 December 2013                                                                        Lynis(8)
+1.10                24 December 2013                Lynis(8)
 
 ~~~

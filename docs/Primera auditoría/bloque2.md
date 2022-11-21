@@ -7,7 +7,7 @@ nav_order: 2
 
 ## Bloque 2 - Herramientas del sistema
 
-![](assets/images/05.png)
+<img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/05.png"/>
 
 
 En este apartado comprueba las herramientas que tiene el sistema y detecta el propio programa. Comprobando la existencia de los directorios tales como `/bin` o `/sbin`, que son donde se almacenan todos los binarios necesarios para garantizar las funciones básicas a nivel de usuario, en el primer caso, y los binarios necesarios para tareas administrativas gestionadas por el usuario `root` o `superusuario` en el caso del segundo.

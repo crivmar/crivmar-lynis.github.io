@@ -7,7 +7,7 @@ nav_order: 1
 
 ## Bloque 1 - Inicio del programa
 
-![](assets/images/04.png)
+<img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/04.png"/>
 
 Tal y como ingresamos el comando, la imagen de arriba nos refleja lo primero que se nos muestra. Comenzando con la detección del sistema operativo a analizar y limpiando el archivo de registro, por si hubiera otro con el mismo nombre.
 
