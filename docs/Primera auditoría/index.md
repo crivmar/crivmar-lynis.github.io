@@ -48,3 +48,17 @@ Como el resultado que nos arroja es bastante extenso, vamos a ir bloque a bloque
 - [Bloque 7 - Shells, sistema de archivos y almacenamiento]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque7.md %})
 
 - [Bloque 8 - NFS, DNS y paquetes]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque8.md %})
+
+- [Bloque 9 - Conexión a la red e impresoras]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque9.md %})
+
+- [Bloque 10 - Correo electrónico y cortafuegos]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque10.md %})
+
+- [Bloque 11 - Servidor web]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque11.md %})
+
+- [Bloque 12 - SSH y SNMP]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque12.md %})
+
+- [Bloque 13 - Base de datos, LDAP, PHP y Squid]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque13.md %})
+
+- [Bloque 14 - Registros, servicios inseguros e indentificaciones]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque14.md %})
+
+-
