@@ -59,6 +59,6 @@ Como el resultado que nos arroja es bastante extenso, vamos a ir bloque a bloque
 
 - [Bloque 13 - Base de datos, LDAP, PHP y Squid]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque13.md %})
 
-- [Bloque 14 - Registros, servicios inseguros e indentificaciones]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque14.md %})
+- [Bloque 14 - Registros y servicios inseguros]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque14.md %})
 
 -
