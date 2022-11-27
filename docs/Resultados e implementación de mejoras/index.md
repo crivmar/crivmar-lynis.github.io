@@ -72,7 +72,7 @@ Podemos ver un fragmento de este archivo, concretamente cuando escanea la versi�
 ~~~
 
 - `/var/log/lynis-report.dat`, en este archivo, por defecto, es recogido los hallazgos y otros datos dados durante la auditoría. El archivo de informe también se puede utilizar para comparar los resultados del análisis del pasado con un análisis actual. `Lynis Enterprise` tiene muchas más posibilidades de mostrar los datos, incluyendo informes extendidos en varios formatos. Este archivo de registro se purga en cada pasada, por lo que es importante hacer una copia de respaldo o programar una rotación de los registros antes de volver a escanear el sistema.
-Podemos ver su estructura, por ejemplo, tomando los usuarios que hay en el sistema y los guarda junto a su `UID` y , además, observamos que se guardan las sugerencias dadas por el programa:
+Podemos ver su estructura, por ejemplo, toma los usuarios que hay en el sistema y los guarda junto a su `UID` y , además, observamos que se guardan las sugerencias dadas por el programa:
 
 ~~~
 real_user[]=root,0
@@ -108,4 +108,4 @@ En los siguientes bloques de esta sección iremos viendo la implementación de p
 
 ### Contenido
 
-- [Correción 1 - Peligros - Versión de lynis e Iptables]({ https://crivmar.github.io/crivmar-lynis.github.io/ }{% link docs/Resultados e implementación de mejoras/corr1.md %})
+- [Correción 1 - Peligros - Versión de lynis e Iptables]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Resultados e implementación de mejoras/corr1.md %})
