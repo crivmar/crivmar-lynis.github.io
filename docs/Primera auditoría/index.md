@@ -61,4 +61,15 @@ Como el resultado que nos arroja es bastante extenso, vamos a ir bloque a bloque
 
 - [Bloque 14 - Registros y servicios inseguros]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque14.md %})
 
--
+- [Bloque 15 - Banderas e identificadores y tareas programadas]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque15.md %})
+
+- [Bloque 16 - Gestión de procesos, tiempo y sincronización]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque16.md %})
+
+- [Bloque 17 - Criptografía, virtualización y esquemas de seguridad]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque17.md %})
+
+- [Bloque 18 - Integridad de archivos y escáneres de programas maliciosos]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque18.md %})
+
+- [Bloque 19 - Otras herramientas y directorios "home"]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque19.md %})
+
+- [Bloque 20 - Endurecimiento del Kernel, endurecimiento del sistema y test personalizados]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque20.md %})
+
