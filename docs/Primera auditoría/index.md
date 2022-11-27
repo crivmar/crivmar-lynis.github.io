@@ -37,7 +37,7 @@ Como el resultado que nos arroja es bastante extenso, vamos a ir bloque a bloque
 
 - [Bloque 2 - Herramientas del sistema]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque2.md %})
 
-- [Bloque 3 - Arranque del sistema y servicios]({{ https://crivmar.github.io/crivmar-lynis.github.io }{% link docs/Primera auditoría/bloque3.md %})
+- [Bloque 3 - Arranque del sistema y servicios]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque3.md %})
 
 - [Bloque 4 - Kernel]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque4.md %})
 
@@ -45,7 +45,7 @@ Como el resultado que nos arroja es bastante extenso, vamos a ir bloque a bloque
 
 - [Bloque 6 - Usuarios, grupos y autenticación]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque6.md %})
 
-- [Bloque 7 - Shells, sistema de archivos y almacenamiento]({{} https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque7.md %})
+- [Bloque 7 - Shells, sistema de archivos y almacenamiento]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque7.md %})
 
 - [Bloque 8 - NFS, DNS y paquetes]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque8.md %})
 
