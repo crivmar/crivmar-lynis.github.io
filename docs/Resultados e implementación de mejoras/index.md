@@ -108,4 +108,4 @@ En los siguientes bloques de esta sección iremos viendo la implementación de p
 
 ### Contenido
 
-- [Correción 1 - Peligros - Versión de lynis e Iptables]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Resultados e implementación de mejoras/corr1.md %})
+- [Correción 1 - Peligros - Versión de Lynis e Iptables]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Resultados e implementación de mejoras/corr1.md %})
