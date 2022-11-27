@@ -19,7 +19,17 @@ Como vemos y hemos mencionado varias veces, la versión de `Lynis` que hemos usa
 
 Y ya por último, nos muestra donde se guardan los archivos generados para su revisión:
 
-- `~/auditoria1.log`, es el lugar donde indicamos en el comando inicial de ejecución que debía guardarse los resultado de los test y la información de depuración. podemos ver una parte de la comprobaciones que realiza y así vemos un poco la estructura de este archivo. Escanea la versión de del núcleo de la máquina, reconoce si es monolítico o modular y comprueba los módulos cargados:
+- `~/auditoria1.log`, es el lugar donde indicamos en el comando inicial de ejecución que debía guardarse los resultado de los test. Los resultados se muestran en pantalla durante el análisis del sistema, además, los detalles adicionales se guardan en el archivo mencionado. Esta información es útil para los usuarios avanzados, para ver lo que el programa hizo en el fondo, o donde aparecieron anomalías. Información que se muestra en el archivo de registro:
+
+- Hora de una acción/evento
+    
+- Razón(es) por la que una prueba ha fallado o se ha omitido
+    
+- Resultados de las pruebas (internas)
+    
+- Sugerencias sobre las opciones de configuración o cómo arreglar/mejorar.
+
+Podemos ver un fragmento de este archivo, concretamente cuando escanea la versión de del núcleo de la máquina, reconoce si es monolítico o modular y comprueba los módulos cargados:
 
 ~~~
  ===---------------------------------------------------------------===
@@ -61,7 +71,8 @@ Y ya por último, nos muestra donde se guardan los archivos generados para su re
 
 ~~~
 
-- `/var/log/lynis-report.dat`, aquí se guarda los datos extraídos por los test realizados. Podemos ver, por ejemplo, toma los usuarios que hay en el sistema y los guarda junto a su `UID` y , además, observamos que se guardan las sugerencias dadas por el programa:
+- `/var/log/lynis-report.dat`, en este archivo, por defecto, es recogido los hallazgos y otros datos dados durante la auditoría. El archivo de informe también se puede utilizar para comparar los resultados del análisis del pasado con un análisis actual. `Lynis Enterprise` tiene muchas más posibilidades de mostrar los datos, incluyendo informes extendidos en varios formatos. Este archivo de registro se purga en cada pasada, por lo que es importante hacer una copia de respaldo o programar una rotación de los registros antes de volver a escanear el sistema.
+Podemos ver su estructura, por ejemplo, tomando los usuarios que hay en el sistema y los guarda junto a su `UID` y , además, observamos que se guardan las sugerencias dadas por el programa:
 
 ~~~
 real_user[]=root,0
