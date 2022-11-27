@@ -35,41 +35,41 @@ Como el resultado que nos arroja es bastante extenso, vamos a ir bloque a bloque
 
 - [Bloque 1 - Inicio del programa]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque1.md %})
 
-- [Bloque 2 - Herramientas del sistema]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque2.md %})
+- [Bloque 2 - Herramientas del sistema]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque2.md %})
 
-- [Bloque 3 - Arranque del sistema y servicios]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque3.md %})
+- [Bloque 3 - Arranque del sistema y servicios]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque3.md %})
 
-- [Bloque 4 - Kernel]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque4.md %})
+- [Bloque 4 - Kernel]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque4.md %})
 
-- [Bloque 5 - Memoria y procesos]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque5.md %})
+- [Bloque 5 - Memoria y procesos]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque5.md %})
 
-- [Bloque 6 - Usuarios, grupos y autenticación]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque6.md %})
+- [Bloque 6 - Usuarios, grupos y autenticación]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque6.md %})
 
-- [Bloque 7 - Shells, sistema de archivos y almacenamiento]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque7.md %})
+- [Bloque 7 - Shells, sistema de archivos y almacenamiento]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque7.md %})
 
-- [Bloque 8 - NFS, DNS y paquetes]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque8.md %})
+- [Bloque 8 - NFS, DNS y paquetes]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque8.md %})
 
-- [Bloque 9 - Conexión a la red e impresoras]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque9.md %})
+- [Bloque 9 - Conexión a la red e impresoras]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque9.md %})
 
-- [Bloque 10 - Correo electrónico y cortafuegos]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque10.md %})
+- [Bloque 10 - Correo electrónico y cortafuegos]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque10.md %})
 
-- [Bloque 11 - Servidor web]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque11.md %})
+- [Bloque 11 - Servidor web]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque11.md %})
 
-- [Bloque 12 - SSH y SNMP]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque12.md %})
+- [Bloque 12 - SSH y SNMP]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque12.md %})
 
-- [Bloque 13 - Base de datos, LDAP, PHP y Squid]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque13.md %})
+- [Bloque 13 - Base de datos, LDAP, PHP y Squid]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque13.md %})
 
-- [Bloque 14 - Registros y servicios inseguros]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque14.md %})
+- [Bloque 14 - Registros y servicios inseguros]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque14.md %})
 
-- [Bloque 15 - Banderas e identificadores y tareas programadas]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque15.md %})
+- [Bloque 15 - Banderas e identificadores y tareas programadas]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque15.md %})
 
-- [Bloque 16 - Gestión de procesos, tiempo y sincronización]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque16.md %})
+- [Bloque 16 - Gestión de procesos, tiempo y sincronización]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque16.md %})
 
-- [Bloque 17 - Criptografía, virtualización y esquemas de seguridad]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque17.md %})
+- [Bloque 17 - Criptografía, virtualización y esquemas de seguridad]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque17.md %})
 
-- [Bloque 18 - Integridad de archivos y escáneres de programas maliciosos]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque18.md %})
+- [Bloque 18 - Integridad de archivos y escáneres de programas maliciosos]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque18.md %})
 
-- [Bloque 19 - Otras herramientas y directorios "home"]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque19.md %})
+- [Bloque 19 - Otras herramientas y directorios "home"]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque19.md %})
 
-- [Bloque 20 - Endurecimiento del Kernel, endurecimiento del sistema y test personalizados]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque20.md %})
+- [Bloque 20 - Endurecimiento del Kernel, endurecimiento del sistema y test personalizados]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque20.md %})
 
