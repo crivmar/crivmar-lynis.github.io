@@ -25,6 +25,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: save state
+        run: echo "test=state" >> $GITHUB_STATE
+      - name:
+        run: echo "test=output" >> $GITHUB_OUTPUT
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Ruby
