@@ -33,7 +33,7 @@ Como el resultado que nos arroja es bastante extenso, vamos a ir bloque a bloque
 
 ### Contenido
 
-- [Bloque 1 - Inicio del programa]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque1.md %})
+- [Bloque 1 - Inicio del programa]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Primera auditoría/bloque1.md %})
 
 - [Bloque 2 - Herramientas del sistema]({{ https://crivmar.github.io/crivmar-lynis.github.io/ }}{% link docs/Primera auditoría/bloque2.md %})
 
