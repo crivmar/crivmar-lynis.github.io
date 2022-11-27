@@ -24,13 +24,10 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    outputs:
-      output1: ${{ steps.step1.outputs.test }}
-      output2: ${{ steps.step2.outputs.test }}
     steps:
-      - id: step1
+      - name: save state
         run: echo "test=state" >> $GITHUB_STATE
-      - id: step2
+      - name:
         run: echo "test=output" >> $GITHUB_OUTPUT
       - name: Checkout
         uses: actions/checkout@v3
