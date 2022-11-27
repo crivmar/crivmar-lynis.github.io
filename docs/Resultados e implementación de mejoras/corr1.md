@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Correción 1 - Peligros - Versión de lynis e Iptables
+title: Correción 1 - Peligros - Versión de Lynis e Iptables
 parent: Resultados e implementación de mejoras
 nav_order: 1
 ---
 
-## Correción 1 - Peligros - Versión de lynis e Iptables
+## Correción 1 - Peligros - Versión de Lynis e Iptables
 
 Lo primero que vamos a hacer es usar la versión más reciente de `Lynis`, como lo instalamos usando el comando `apt`, vamos a desintalarlo primero; antes haremos una copia del archivo `/var/log/lynis-report.dat` para mantenerlo para futura referencia:
 
