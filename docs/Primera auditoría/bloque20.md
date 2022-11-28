@@ -75,7 +75,7 @@ Devuelve un valor `176`, esto es la suma que varía en funcionalidad según la s
 Éste se obtiene de la suma de `128` (que permite el reinicio y el apagado), más `32` (capacidad de remontar sistemas de archivos en modo de sólo lectura)  y más `16` (habilita el comando sync). 
 
 
-- `net.ipv4.conf.all.forwarding`, este es similar al que habilitamos en `/etc/sysctl.conf` para permitir el tráfico en nuestra máquina. Este parámetro establecerá el reenvío de paquetes `IPv4` en todas las interfaces sin afectar a otras configuraciones y el que usamos habitualmente `net.ipv4.ip_forward` afecta a otras configuraciones de este archivo. El valor recomendado es `0` y vamos a cotejarlo con el valor de nuestro sistema; podemos comprobar también con el siguiente comando:
+- `net.ipv4.conf.all.forwarding`, este es similar al que habilitamos en `/etc/sysctl.conf` para permitir que el tráfico pueda atravesar nuestra máquina. Este parámetro establecerá el reenvío de paquetes `IPv4` en todas las interfaces sin afectar a otras configuraciones y el que usamos habitualmente `net.ipv4.ip_forward` afecta a otras configuraciones de este archivo. El valor recomendado es `0` y vamos a cotejarlo con el valor de nuestro sistema; podemos comprobar también con el siguiente comando:
 
 ~~~
 sysctl net.ipv4.conf.all.forwarding
@@ -125,9 +125,9 @@ sysctl net.ipv4.conf.all.forwarding
 
 
 Vamos a la siguiente parte el endurecimiento del sistema, empezando con el hallazgo de un compilador de código. Los compiladores se utilizan para traducir el código fuente a lenguaje de máquina. Este proceso se realiza normalmente durante el ciclo de desarrollo, o por los mantenedores de paquetes. Aunque muchos sistemas tienen un compilador instalado, a menudo no se utiliza. Esto supone un riesgo innecesario. Los atacantes podrían abusar de la presencia de un compilador para hacer funcionar sus ataques maliciosos. Debido a las protecciones del `kernel` de `Linux`, la asignación de memoria y la ejecución de procesos, está limitada; para eludir estas protecciones, se necesita un compilador en el sistema, para que el atacante pueda determinar ubicaciones de memoria específicas y aprovechar una supuesta vulnerabilidad. 
-Tampoco tenemos escáner de programas maliciosos, como vimos en el apartado anterior y eso deja nuestro equipo más expuesto.
+Tampoco tenemos escáner de programas maliciosos, como vimos en un apartado anterior y eso deja nuestro equipo más expuesto.
 
-La última parte sería la dedicada a test personalizados que puedes crear, ya que está escrito en `shell script`. Podemos encontrar en su [Github](https://github.com/CISOfy/lynis/blob/master/include/tests_custom.template) una plantilla para que implementes las pruebas personalizadas que quieras implementar en tu sistema.
+La última parte sería la dedicada a test personalizados que puedes crear, ya que está escrito en `shell script`. Podemos encontrar en su [Github](https://github.com/CISOfy/lynis/blob/master/include/tests_custom.template) una plantilla para que implementes las pruebas personalizadas que quieras en tu sistema.
 
 ---
 
