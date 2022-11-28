@@ -5,7 +5,7 @@ parent: Resultados e implementación de mejoras
 nav_order: 2
 ---
 
-## Correción 2 - Sugerencias - Listar todos los servicios
+## Corrección 2 - Sugerencias - Listar todos los servicios
 
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/31.png"/>
 
