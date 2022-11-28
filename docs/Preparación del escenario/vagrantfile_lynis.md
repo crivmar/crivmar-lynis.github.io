@@ -7,7 +7,7 @@ nav_order: 3
 
 ## Vagrantfile para máquina de pruebas
 
-Vamos a hacer uso de un `Vagrantfile` para levantar la máquina y así empezar con el escenario. Para que tenga comunicación con la red, voy a indicar que haga un puente con mi tarjeta de red "WiFi". Averiguamos con `ip a` el nombre y lo añadimos a este fichero. 
+Vamos a hacer uso de un `Vagrantfile` para levantar la máquina y así empezar con el escenario. Usaremos la red de mantenimiento de Vagrant en este caso:
 
 ~~~
 Vagrant.configure("2") do |config|
@@ -23,7 +23,6 @@ Vagrant.configure("2") do |config|
     mt3.vm.hostname = "mt3"
     mt3.ssh.username = "vagrant"
     mt3.ssh.password = "vagrant"
-    mt3.vm.network :public_network, bridge: "wlp4s0"
     mt3.vm.provider "virtualbox" do |v|
       v.cpus = 2
       v.memory = 2048

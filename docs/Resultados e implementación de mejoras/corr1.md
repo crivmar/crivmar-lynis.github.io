@@ -64,12 +64,6 @@ Como vemos hay un gran número de reglas afectadas, pero lo más indicativo es q
 
 
 ~~~
-## Cambiamos su ruta por defecto para que siempre vaya por la interfaz eth1
-
-sudo ip r del default
-sudo ip r add default via 192.168.1.141
-
-
 ## Limpiar las reglas anteriores
 
 sudo iptables -F
@@ -90,21 +84,21 @@ sudo iptables -P FORWARD DROP
 
 ## Aceptamos consultas y respuestas DNS
 
-sudo iptables -A INPUT -i eth1 -p udp --sport 53 -m state --state ESTABLISHED -j ACCEPT
+sudo iptables -A INPUT -i eth0 -p udp --sport 53 -m state --state ESTABLISHED -j ACCEPT
 
-sudo iptables -A OUTPUT -o eth1 -p udp --dport 53 -m state --state NEW,ESTABLISHED -j ACCEPT
+sudo iptables -A OUTPUT -o eth0 -p udp --dport 53 -m state --state NEW,ESTABLISHED -j ACCEPT
 
 ## Permitimos el tráfico HTTP/HTTPS
 
-sudo iptables -A INPUT -i eth1 -p tcp -m multiport --sport 80,443 -m state --state ESTABLISHED -j ACCEPT
+sudo iptables -A INPUT -i eth0 -p tcp -m multiport --sport 80,443 -m state --state ESTABLISHED -j ACCEPT
 
-sudo iptables -A OUTPUT -o eth1 -p tcp -m multiport --dport 80,443 -m state --state NEW,ESTABLISHED -j ACCEPT
+sudo iptables -A OUTPUT -o eth0 -p tcp -m multiport --dport 80,443 -m state --state NEW,ESTABLISHED -j ACCEPT
 
 ## Permitimos el acceso a nuestro servidor web
 
-sudo iptables -A INPUT -i eth1 -p tcp --dport 80 -m state --state NEW,ESTABLISHED -j ACCEPT
+sudo iptables -A INPUT -i eth0 -p tcp --dport 80 -m state --state NEW,ESTABLISHED -j ACCEPT
 
-sudo iptables -A OUTPUT -o eth1 -p tcp --sport 80 -m state --state ESTABLISHED -j ACCEPT
+sudo iptables -A OUTPUT -o eth0 -p tcp --sport 80 -m state --state ESTABLISHED -j ACCEPT
 ~~~
 
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/30.png"/>
