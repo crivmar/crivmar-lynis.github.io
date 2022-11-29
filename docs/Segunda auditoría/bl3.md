@@ -124,4 +124,4 @@ Ya por último, que no salía en la anterior versión del programa es que está 
 
 - **Hash -> Cifrado de las contraseñas tras tomar estas y aplicarles un determinado algoritmo y esta resulta en un `hash` de longitud fija o variable (dependiendo del alogritmo usado) y cuya función es aumentar la seguridad a la hora de guardar las contraseñas.**
 
-- **comando sudo -> permite a los usuarios que no son root ejecutar otros comandos que normalmente requerirían privilegios de superusuario. El archivo `/etc/sudoers` le indica al sistema cómo manejar este comando.
+- **comando sudo -> permite a los usuarios que no son root ejecutar otros comandos que normalmente requerirían privilegios de superusuario. El archivo `/etc/sudoers` le indica al sistema cómo manejar este comando.**
