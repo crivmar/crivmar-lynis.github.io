@@ -109,3 +109,15 @@ En los siguientes bloques de esta sección iremos viendo la implementación de p
 ### Contenido
 
 - [Correción 1 - Peligros - Versión de Lynis e Iptables]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Resultados e implementación de mejoras/corr1.md %})
+
+- [Correción 2 - Sugerencias - Listar todos los servicios]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Resultados e implementación de mejoras/corr2.md %})
+
+- [Correción 3 - Sugerencias - Módulo PAM, contraseñas y umask]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Resultados e implementación de mejoras/corr3.md %})
+
+- [Correción 4 - Sugerencias - Puntos de montaje, almacenamiento USB y paquetes]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Resultados e implementación de mejoras/corr4.md %})
+
+- [Correción 5 - Sugerencias - CUPS y módulos Apache2]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Resultados e implementación de mejoras/corr5.md %})
+
+- [Correción 6 - Sugerencias - Eliminar archivos borrados en uso, añadir mensaje y habilitar Auditd]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Resultados e implementación de mejoras/corr6.md %})
+
+- [Correción 7 - Sugerencias - Herramientas de integridad de archivos, endurecimiento del Kernel y escáneres de programas maliciosos]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Resultados e implementación de mejoras/corr7.md %})

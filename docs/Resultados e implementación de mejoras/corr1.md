@@ -71,9 +71,9 @@ sudo iptables -Z
 
 ## Par de reglas ssh
 
-sudo iptables -A INPUT -s 192.168.1.0/24 -p tcp --dport 22 -m state --state NEW,ESTABLISHED -j ACCEPT
+sudo iptables -A INPUT -s 10.0.2.0/24 -p tcp --dport 22 -m state --state NEW,ESTABLISHED -j ACCEPT
 
-sudo iptables -A OUTPUT -d 192.168.1.0/24 -p tcp --sport 22 -m state --state ESTABLISHED -j ACCEPT 
+sudo iptables -A OUTPUT -d 10.0.2.0/24 -p tcp --sport 22 -m state --state ESTABLISHED -j ACCEPT 
 
 ## Política DROP en todas las cadenas, de alguna manera no me deja borrar 
 ## la cadena FORWARD, así que la añado.
