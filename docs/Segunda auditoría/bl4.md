@@ -118,4 +118,29 @@ Lo siguiente que nos muestra son los valores que hay añadidos a los puntos de m
 En el apartado **Correción 4** de la sección anterior, deshabilitamos el uso de USB y ahora nos muestra como tal. Lo que añade a esta categoría es si tenemos instalado `USBGuard`, un programa que ayuda a proteger el sistema contra USB engañosos mediante la implementación de listas negras y blancas basadas en los atributos de estos. Como no permitimos el uso de estos, directamente no nos haría falta instalarlo, pero [aquí](https://usbguard.github.io/) dejo su web por si se cambia de política respecto a los dispositivos USB.
 
 
+~~~
+2022-11-29 09:22:55 ====
+2022-11-29 09:22:55 Action: Performing tests from category: USB Devices
+2022-11-29 09:22:55 ====
+2022-11-29 09:22:55 Performing test ID USB-1000 (Check if USB storage is disabled)
+2022-11-29 09:22:55 Test: Checking USB storage driver in directory /etc/modprobe.d and configuration file /etc/modprobe.conf
+2022-11-29 09:22:55 Result: found usb-storage driver in disabled state (blacklisted)
+2022-11-29 09:22:55 Result: usb-storage driver is disabled
+2022-11-29 09:22:55 Hardening: assigned maximum number of hardening points for this item (3). Currently having 107 points (out of 141)
+2022-11-29 09:22:55 ====
+2022-11-29 09:22:55 Performing test ID USB-2000 (Check USB authorizations)
+2022-11-29 09:22:55 Test: checking presence of USB devices path (/sys/bus/usb/devices)
+2022-11-29 09:22:55 Test: Checking USB devices authorization to connect to the system
+2022-11-29 09:22:55 Result: None USB devices are authorized by default (or temporary) to connect to the system
+2022-11-29 09:22:55 Hardening: assigned maximum number of hardening points for this item (3). Currently having 110 points (out of 144)
+2022-11-29 09:22:55 ====
+2022-11-29 09:22:55 Performing test ID USB-3000 (Check for presence of USBGuard)
+2022-11-29 09:22:55 Result: USBGuard not found
+2022-11-29 09:22:55 Hardening: assigned partial number of hardening points (0 of 8). Currently having 110 points (out of 152)
+2022-11-29 09:22:55 Security check: file is normal
+2022-11-29 09:22:55 Checking permissions of /usr/local/lynis/include/tests_storage
+2022-11-29 09:22:55 File permissions are OK
+2022-11-29 09:22:55 ====
 
+...
+~~~
