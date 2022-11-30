@@ -29,7 +29,7 @@ La parte de almacenamiento respecto a `FireWire` permanece igual que en la prime
 ...
 ~~~
 
-En los números de los programas podemos observar el 100000 que pertenece al servicio `portmappper`, este sirve para redireccionar las peticiones a un puerto a una dirección que configuremos. Este servicio siempre usa el `TCP` o `UDP` con el número `111`, lo que vemos son las diferentes versiones de este protocolo.  Hay que tener cuidado con esto porque hay ataques de negación de servicio que utilizan el puerto `111 UDP`. Si nosotros, hacemos una comprobación desde nuetra máquina, veremos si ignora al `DROP` de `Iptables`:
+En los números de los programas podemos observar el 100000 que pertenece al servicio `portmappper`, este sirve para redireccionar las peticiones a un puerto a una dirección que configuremos. Este servicio siempre usa el `TCP` o `UDP` con el número `111`, lo que vemos son las diferentes versiones de este protocolo.  Hay que tener cuidado con esto porque hay ataques de negación de servicio que utilizan el puerto `111 UDP`. Si nosotros, hacemos una comprobación desde nuestra máquina, veremos si ignora al `DROP` de `Iptables`:
 
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/61.png"/>
 
@@ -60,7 +60,7 @@ Lo siguiente que comprueba es si detecta los protocolos de `NFS` y si está corr
 
 ### DNS
 
-En este caso muestra menos información que el anterior, pero si vemos el registro vemos que hace las mismas comprobaciones:
+En este caso muestra menos información que el anterior pasada, pero si vemos el registro vemos que hace las mismas comprobaciones, pero no muestra esta información porque realmente no están configurado estos servicios:
 
 ~~~
 2022-11-29 09:22:55 ====
@@ -139,5 +139,4 @@ En este caso muestra menos información que el anterior, pero si vemos el regist
 ~~~
 
 
-Vemos que hace las mismas comprobaciones sólo que no te muestra la información porque estos servicios no están configurados.
 
