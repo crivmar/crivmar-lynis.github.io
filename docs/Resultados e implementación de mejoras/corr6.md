@@ -45,4 +45,4 @@ Por último, vamos a instalar `auditd` en nuestro sistema, este programa sirve p
 sudo apt install -y auditd
 ~~~
 
-El fichero donde se guarda esta información está en `/var/log/audit/audit.log`, pero es necesario configurar reglas con el comando `auditctl` para tomar determinada información.
+El fichero donde se guarda esta información está en `/var/log/audit/audit.log`, pero es necesario configurar reglas con el comando `auditctl` para tomar una determinada información.
