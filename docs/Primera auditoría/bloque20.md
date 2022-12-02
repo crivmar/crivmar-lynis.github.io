@@ -114,7 +114,7 @@ sysctl net.ipv4.conf.all.forwarding
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/23_09.png"/>
 
 
-- `net.ipv6.conf.all.accept_redirects`, como su homónimo de `IPv4`, pero aplicado a este protocolo.
+- `net.ipv6.conf.all.accept_redirects`, los mensajes de redirección `ICMP` son paquetes que transmiten información de enrutamiento y le indican a su anfitrión (que actúa como un enrutador) que envíe los paquetes a través de una ruta alternativa. Así se permite que las tablas de enrutamiento se actualicen. El valor `0` no aceptará ningún mensaje y por tanto no permitirá que un dispositivo externo actualice estas tablas.
 
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/23_10.png"/>
 
