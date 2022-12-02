@@ -24,3 +24,33 @@ En los siguientes bloques nos centraremos en información más detallada de los 
 
 - [Bloque 1 - Herramientas, plugins y arranque]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Segunda auditoría/bl1.md %})
 
+- [Bloque 2 - Kernel y memoria]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Segunda auditoría/bl2.md %})
+
+- [Bloque 3 - Usuarios, grupos y autenticación]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Segunda auditoría/bl3.md %})
+
+- [Bloque 4 - Shells, sistema de archivos y USB]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Segunda auditoría/bl4.md %})
+
+- [Bloque 5 - NFS y DNS]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Segunda auditoría/bl5.md %})
+
+- [Bloque 6 - Paquetes]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Segunda auditoría/bl6.md %})
+
+- [Bloque 7 - Conexiones, impresoras y correo electrónico]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Segunda auditoría/bl7.md %})
+
+- [Bloque 8 - Cortafuegos y servidor web]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Segunda auditoría/bl8.md %})
+
+- [Bloque 9 - SSH, SNMP y base de datos]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Segunda auditoría/bl9.md %})
+
+- [Bloque 10 - LDAP, PHP, Squid y registros]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Segunda auditoría/bl10.md %})
+
+- [Bloque 11 - Servicios inseguros, mensajes, tareas programadas y gestión de procesos]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Segunda auditoría/bl11.md %})
+
+- [Bloque 12 - Tiempo y sincronización, criptografía, virtualización y esquemas de seguridad]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Segunda auditoría/bl12.md %})
+
+- [Bloque 13 - Integridad de archivos, otras herramientas y escáneres de seguridad]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Segunda auditoría/bl13.md %})
+
+- [Bloque 14 - Permisos de archivos y directorios "home"]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Segunda auditoría/bl14.md %})
+
+- [Bloque 15 - Endurecimiento del Kernel]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Segunda auditoría/bl15.md %})
+
+- [Bloque 16 - Endurecimiento del sistema, fase 2 de los añadidos, test personalizados y final]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Segunda auditoría/bl16.md %})
+
