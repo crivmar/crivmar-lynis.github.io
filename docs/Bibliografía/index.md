@@ -6,4 +6,4 @@ has_children: false
 has_toc: false
 ---
 
-[Enlace]({{ https://crivmar.github.io/crivmar-lynis.github.io }}{% link docs/Bibliografía/Bibliografía.md %}) al documento donde está todo lo consultado. Otros enlaces los puedes encontrar en el desarrollo de este proyecto, porque por contexto era mejor localizarlos en ese momento.
+[Enlace](https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/docs/Bibliograf%C3%ADa/Bibliograf%C3%ADa.md) al documento donde está todo lo consultado. Otros enlaces los puedes encontrar en el desarrollo de este proyecto, porque por contexto era mejor localizarlos en ese momento.
