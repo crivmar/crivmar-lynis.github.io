@@ -20,7 +20,7 @@ Vemos también el directorio `/usr/`, este directorio contiene todo el software 
 
 -`/usr/xpg4/`, `/usr/css/` y  `/usr/ucb` , igual que las anteriores pero que cumplen otros estándares de compilación de los programas, además de algunas herramientas para desarrolladores.
 
-- `/usr/X11R6/bin`, ficheros binarios pertenecientes al sistema X-Windows que se usa para las interfaces gráficas.
+- `/usr/X11R6/bin`, ficheros binarios pertenecientes al sistema `X-Windows` que se usa para las interfaces gráficas.
 
 
 Directorios de la rama `/opt/`, aquí van los archivos de solo lectura de programas autocontenidos y no siguen los criterios de almacenar sus archivos en alguno de los directorios de la rama `usr`.

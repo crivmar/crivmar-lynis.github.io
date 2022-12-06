@@ -13,7 +13,7 @@ En este bloque podemos sacar información de comprobaciones que hace este progra
 
 - **Comprobación de la consistencia de los archivos de grupos**, esto lo hace con el comando `grpck` que verifica la integridad de todas las entradas en `/etc/group` y `/etc/gshadow` tengan el formato adecuado y contengan datos válidos.
 
-- **Autenticación NIS/+ (Sistema de Información de Red)**, es un protocolo (cliente-servidor) para el envío de datos de configuración de un sistema distribuido (clústeres). Este protocolo proporciona prestaciones de acceso a bases de datos genéricas que pueden utilizarse para distribuir, por ejemplo, la información contenida en los ficheros `passwd` y `groups` a todos los nodos de su red. En este caso no tenemos ese servicio habilitado.
+- **Autenticación NIS/+ (*Sistema de Información de Red*)**, es un protocolo (cliente-servidor) para el envío de datos de configuración de un sistema distribuido (clústeres). Este protocolo proporciona prestaciones de acceso a bases de datos genéricas que pueden utilizarse para distribuir, por ejemplo, la información contenida en los ficheros `passwd` y `groups` a todos los nodos de su red. En este caso no tenemos ese servicio habilitado.
 
 - **Comprobación del archivo `sudoers`**, es importante comprobar este archivo porque es la base de uso del comando `sudo` (ubicado en `/etc/`) y los permisos sobre este deben ser los adecuados ya que puede suponer una vulnerabilidad crítica para un sistema si se modifica este archivo, ya que puede dar al usuario que se encuentre dentro privilegios de administrador.  
 
@@ -50,4 +50,4 @@ Aquí tenemos una sugerencia que trataremos en un apartado más adelante.
 		7 | 111 | todos los permisos
 
 
-El valor de `umask` de todo el sistema se puede establecer en `/etc/profile` o en los archivos de configuración predeterminados del shell, por ejemplo `/etc/bash.bashrc`. La mayoría de las distribuciones Linux establecen un valor predeterminado 022 de umask. En este caso no parece que haya establecido una directriz principal, como vemos en la imagen, pero nos apunta a posibles sugerencias de estos valores en otros archivos de `/etc/`.
+El valor de `umask` de todo el sistema se puede establecer en `/etc/profile` o en los archivos de configuración predeterminados del `shell`, por ejemplo `/etc/bash.bashrc`. La mayoría de las distribuciones Linux establecen un valor predeterminado 022 de `umask`. En este caso no parece que haya establecido una directriz principal, como vemos en la imagen, pero nos apunta a posibles sugerencias de estos valores en otros archivos de `/etc/`.

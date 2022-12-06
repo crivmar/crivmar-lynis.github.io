@@ -11,7 +11,7 @@ nav_order: 3
 
 Detecta los sistemas de arranque, en este caso detecta `GRUB2` que es el que usa `Ubuntu` y comprueba si usas otros como [Lilo](https://es.wikipedia.org/wiki/Lilo_(Linux)), [Silo](https://es.wikipedia.org/wiki/SILO_(boot_loader)) y [Yaboot](https://en.wikipedia.org/wiki/Yaboot). Lo siguiente es comprobar los servicios que están corriendo con `systemd` y cuántos están habilitados.
 
-Vemos que hay 14 servicios que se inician en el arranque, indican que son `rc2.d`. Esto tiene que ver con los `runlevel` que determinan los programas que se ejecutan al iniciar el sistema; el "2" indica que es "modo multiusuario" (por defecto) y si fueramos a `/etc/rc2.d/`, veríamos una lista de ficheros que son enlaces simbólicos a sus respectivos `script` en `/etc/init.d`, que controlan la detención o inicio de estos servicios.
+Vemos que hay 14 servicios que se inician en el arranque, indican que son `rc2.d`. Esto tiene que ver con los `runlevel` que determinan los programas que se ejecutan al iniciar el sistema; el "2" indica que es "modo multiusuario" (por defecto) y si fuéramos a `/etc/rc2.d/`, veríamos una lista de ficheros que son enlaces simbólicos a sus respectivos `script` en `/etc/init.d`, que controlan la detención o inicio de estos servicios.
 
 Los archivos en `rc2.d` tienen la siguiente nomenclatura:
 

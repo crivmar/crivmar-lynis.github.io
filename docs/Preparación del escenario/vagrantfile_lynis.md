@@ -7,7 +7,7 @@ nav_order: 3
 
 ## Vagrantfile para máquina de pruebas
 
-Vamos a hacer uso de un `Vagrantfile` para levantar la máquina y así empezar con el escenario. Usaremos la red de mantenimiento de Vagrant en este caso:
+Vamos a hacer uso de un `Vagrantfile` para levantar la máquina y así empezar con el escenario. Usaremos la red de mantenimiento de `Vagrant` en este caso:
 
 ~~~
 Vagrant.configure("2") do |config|
@@ -31,7 +31,7 @@ Vagrant.configure("2") do |config|
 end 
 ~~~
 
-**Hay que especificarle el usuario y contraseña `ssh` para que cuando cree la máquina inyecte la clave de `Vagrant`**
+**Hay que especificarle el usuario y contraseña `ssh` para que cuando se cree la máquina inyecte la clave de `Vagrant`**
 
 
 Una vez creado este fichero con esos parámetros, vamos a levantarlo con el siguiente comando, dentro del directorio donde lo hemos creado:
@@ -51,7 +51,7 @@ Una vez creada la máquina, el proceso de instalar este programa es sencillo. Ta
 
 - Descarga directa.
 
-- Homebrew (para los que tengan `macOS`)
+- `Homebrew` (para los que tengan `macOS`)
 
 
 En nuestro caso es tan simple como primero ejecutar un `update` y luego:

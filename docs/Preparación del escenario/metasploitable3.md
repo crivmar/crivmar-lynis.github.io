@@ -16,7 +16,7 @@ Es una herramienta muy útil para realizar pruebas de seguridad informática, de
 Aunque, como todo, tiene sus puntos negativos a la hora de su uso. Aparte de requerir conocimientos previos para su mejor desempeño, esta máquina virtual carece de actualizaciones de forma frecuente, siendo esta versión la última (con varios años a sus espaldas). Pese a ello, es una herramienta útil para nuestro caso y siempre que se quiera profundizar en estos temas, hay un amplio abanico de opciones para aprender y hacer pruebas.
 
 
-## ¿Por qué es importante este tipo de herramientas de "hacking" ético?
+## ¿Por qué es importante este tipo de herramientas de "*hacking*" ético?
 
 Existen múltiples amenazas de seguridad en la red. Siempre que abrimos una página, iniciamos sesión en algún servicio o instalamos cualquier programa, podemos ser víctimas de programas malintencionados y diferentes ataques. Pero en muchas ocasiones esto se debe a vulnerabilidades que hay en los sistemas, como por ejemplo fallos que pueden permitir que un atacante entre en un servidor, algún error que provoque que las contraseñas queden expuestas, etc.
 

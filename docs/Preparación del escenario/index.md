@@ -8,7 +8,6 @@ has_toc: false
 
 # Preparación del escenario
 
-(*Descripción*)
 
 ### Contenido
 

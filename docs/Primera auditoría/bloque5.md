@@ -9,7 +9,7 @@ nav_order: 5
 
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/08.png"/>
 
-Este bloque es pequeño y se centra en comprobar un archivo ubicado en `/proc` (contiene información de procesos y aplicaciones que se están ejecutando) e información de la memoria y la cpu. Busca si hay:
+Este bloque es pequeño y se centra en comprobar un archivo ubicado en `/proc` (contiene información de procesos y aplicaciones que se están ejecutando) e información de la memoria y la CPU. Busca si hay:
 
 - **Procesos zombis**, es todo proceso (hijo) que ha completado su ejecución pero aún tiene una entrada en la tabla de procesos, permitiendo al proceso que lo ha creado (padre) leer el estado de su salida.
 
