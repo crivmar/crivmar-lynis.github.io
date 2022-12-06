@@ -11,7 +11,7 @@ nav_order: 20
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/23.png"/>
 
 
-Aqui vemos como `Lynis` compara una lista de valores por defecto de las mejores prácticas para `sysctl`. Da una sugerencia relacionada cuando el valor real en el sistema es diferente al valor esperado; esto no significa expresamente que el sistema esté débilmente configurado. Depende del objetivo principal del sistema, y su enfoque. Por ejemplo, un sistema con la función de ser un router tendrá que ser ajustado más agresivamente cuando se trata de la pila de red.
+Aquí vemos como `Lynis` compara una lista de valores por defecto de las mejores prácticas para `sysctl`. Da una sugerencia relacionada cuando el valor real en el sistema es diferente al valor esperado; esto no significa expresamente que el sistema esté débilmente configurado. Depende del objetivo principal del sistema, y su enfoque. Por ejemplo, un sistema con la función de ser un router tendrá que ser ajustado más agresivamente cuando se trata de la pila de red.
 
 Vamos a comprobar las partes que son "diferentes", según los test que realiza y veamos a qué hace referencia:
 
@@ -44,7 +44,7 @@ U – Remontar los filesystems en modo solo lectura.
 B – Reiniciar el equipo
 ~~~
 
-El valor experado por el test es `0` (deshabilitado) y vemos qué tenemos en nuestro sistema de pruebas:
+El valor esperado por el test es `0` (deshabilitado) y vemos qué tenemos en nuestro sistema de pruebas:
 
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/23_02.png"/>
 
@@ -72,7 +72,7 @@ Devuelve un valor `176`, esto es la suma que varía en funcionalidad según la s
 256 - permite la señalización de todas las tareas en tiempo real.
 ~~~
 
-Éste se obtiene de la suma de `128` (que permite el reinicio y el apagado), más `32` (capacidad de remontar sistemas de archivos en modo de sólo lectura)  y más `16` (habilita el comando sync). 
+Éste se obtiene de la suma de `128` (que permite el reinicio y el apagado), más `32` (capacidad de remontar sistemas de archivos en modo de sólo lectura)  y más `16` (habilita el comando `sync`). 
 
 
 - `net.ipv4.conf.all.forwarding`, este es similar al que habilitamos en `/etc/sysctl.conf` para permitir que el tráfico pueda atravesar nuestra máquina. Este parámetro establecerá el reenvío de paquetes `IPv4` en todas las interfaces sin afectar a otras configuraciones y el que usamos habitualmente `net.ipv4.ip_forward` afecta a otras configuraciones de este archivo. El valor recomendado es `0` y vamos a cotejarlo con el valor de nuestro sistema; podemos comprobar también con el siguiente comando:
@@ -130,6 +130,9 @@ Tampoco tenemos escáner de programas maliciosos, como vimos en un apartado ante
 La última parte sería la dedicada a test personalizados que puedes crear, ya que está escrito en `shell script`. Podemos encontrar en su [Github](https://github.com/CISOfy/lynis/blob/master/include/tests_custom.template) una plantilla para que implementes las pruebas personalizadas que quieras en tu sistema.
 
 ---
+
+Información adicional
+{: .label .label-blue}
 
 **`sysctl` -> es usado para visualizar, configurar y automatizar configuraciones del kernel en el directorio `/proc/sys/`.** 
 

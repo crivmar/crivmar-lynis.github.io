@@ -59,10 +59,10 @@ Recargamos `sysctl` y comprobamos:
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/51.png"/>
 
 
-**Nota: Esto es algo temporal, si reiniciamos perderemos esta configuración, si queremos algo más definitivo tendremos que cambiar estos valores en `/etc/sysctl.conf` y añadir los valores que no estén de manera manual.**
+**Nota: Esto es algo temporal, si reiniciamos perderemos esta configuración, si queremos algo permanente tendremos que cambiar estos valores en `/etc/sysctl.conf` y añadir los valores que no estén de manera manual.**
 
 
-El clásico compilador que se suele usar para lenguaje `C` y `C++` (la base de la mayoría de los sistemas operativos) es el que contiene el paquete de `build-essential`, para ello vamos a desinstalarlo.
+El clásico compilador que se suele usar para lenguaje `C` y `C++` (la base de la mayoría de los sistemas operativos) es el que contiene el paquete de `build-essential`, para ello vamos a desinstalarlo:
 
 ~~~
 sudo apt remove -y build-essential --purge
@@ -71,7 +71,7 @@ sudo apt-get autoremove -y
 ~~~
 
 
-Y acabamos instalando un escáner de programas maliciosos, vamos a instalar `chkrootkit`:
+Y acabamos instalando un escáner de programas maliciosos, como `chkrootkit`:
 
 ~~~
 sudo apt install -y chkrootkit

@@ -9,7 +9,7 @@ nav_order: 4
 
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/59.png"/>
 
-Aquí se nos muestra más información que en el programa anterior. En el apartado de las `shells` podemos ver que aparece `session timeout` y este aparece como "ninguno". Vamos a ver a qué se refiere:
+Aquí se nos muestra más información que en el programa anterior. En el apartado de las `shells` podemos ver que aparece `session timeout` y como "ninguno". Vamos a ver a qué se refiere:
 
 ~~~
 2022-11-29 09:22:54 ====

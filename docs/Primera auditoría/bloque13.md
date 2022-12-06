@@ -11,7 +11,7 @@ nav_order: 13
 
 Detecta una base de datos `MySQL` que coincide con la documentación de esta máquina y hace una comprobación de la contraseña del usuario `root` de la base de datos. Puede que al ser una versión antigua del S.O. o del propio `Lynis` no realiza más comprobaciones o salte algunas pruebas.
 
-No detecta un servicio de `LDAP` (*Lightweight Directory Access Protocol*), que es un directorio donde se almacenan objetos con atributos organizados jerárquicamente (como si fueran unas "páginas amarillas"); tampoco detecta que tenga instalado el paquete `php`, aunque es extraño porque tiene instalado `phpMyAdmin` según la documentación de `Metasploitable 3`. Lo comprobamos:
+No detecta un servicio de `LDAP` (*Lightweight Directory Access Protocol*), que es un directorio donde se almacenan objetos con atributos organizados jerárquicamente (como si fueran unas "*páginas amarillas*"); tampoco detecta que tenga instalado el paquete `php`, aunque es extraño porque tiene instalado `phpMyAdmin` según la documentación de `Metasploitable 3`. Lo comprobamos:
 
 ~~~
 apt-cache policy [nombre_del_paquete]

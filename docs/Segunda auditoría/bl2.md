@@ -36,7 +36,7 @@ La parte de `Kernel` es similar al del **Bloque 4** de la sección **Primera aud
 
 
 
-Las difrencias radican en los módulos activos encontrados (44 en esta auditoría respecto a los 53 de la otra) haciendo uso del comando `lsmod`:
+Las diferencias radican en los módulos activos encontrados (44 en esta auditoría respecto a los 53 de la otra) haciendo uso del comando `lsmod`:
 
 ~~~
 2022-11-29 09:22:54 Performing test ID KRNL-5723 (Determining if Linux kernel is monolithic)
@@ -89,7 +89,7 @@ Por último comprueba si el sistema necesita un reinicio por algún paquete o se
 
 ### Memoria y procesos
 
-Sólo añade una cosa respecto a lo visto en el **Bloque 5** de la sección **Primera auditoría**. La presencia del paquete `prelink`, que es un programa que mejora la velocidad del sistema reduciendo el tiempo de carga de las aplicaciones, pero este pude interferir con la herramienta `AIDE` (Integridad de archivos) ya que cambia los binarios. Este puede aumentar la vulnerabilidad del sistema si un usuario es capaz de comprometer una librería común como `libc`. Por eso nos indica con el color verde que no se ha encontrado.
+Sólo añade una cosa respecto a lo visto en el **Bloque 5** de la sección **Primera auditoría**. La presencia del paquete `prelink`, que es un programa que mejora la velocidad del sistema reduciendo el tiempo de carga de las aplicaciones, pero este pude interferir con la herramienta `AIDE` (*Integridad de archivos*) ya que cambia los binarios. Este puede aumentar la vulnerabilidad del sistema si un usuario es capaz de comprometer una librería común como `libc`. Por eso nos indica con el color verde que no se ha encontrado.
 
 ~~~
 2022-11-29 09:22:54 Action: Performing tests from category: Memory and Processes
@@ -122,5 +122,8 @@ out of 19)
 
 
 ---
+
+Información adicional
+{: .label .label-blue}
 
 - **Core dump (Volcado de núcleo) -> Es un archivo que contiene el espacio de direcciones (memoria) de un proceso cuando éste termina inesperadamente. Los volcados del núcleo pueden ser producidos bajo demanda (por un depurador), o automáticamente al terminar el proceso.Son activados por el núcleo en respuesta a la caída del programa, y pueden ser pasados a un programa de ayuda (como `systemd-coredump`) para su posterior procesamiento.**

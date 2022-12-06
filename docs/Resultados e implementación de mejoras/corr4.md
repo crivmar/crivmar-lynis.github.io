@@ -17,7 +17,7 @@ sudo lsblk
 
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/39.png"/>
 
-Vamos a darle formato a dichos discos con `fdisk`, crearemos una nueva partición dejaremos todo por defecto y 
+Vamos a darle formato a dichos discos con `fdisk`, crearemos una nueva partición dejaremos todo por defecto:
 
 ~~~
 sudo fdisk /dev/sdb
@@ -37,7 +37,7 @@ sudo mkfs -t ext4 /dev/sdc1
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/40.png"/>
 
 
-Ahora vamos a hacer un par de carpetas donde vamos a montar temporalmente estos discos duros nuevos.
+Ahora vamos a hacer un par de carpetas donde vamos a montar temporalmente estos discos duros nuevos:
 
 ~~~
 sudo mkdir /mnt/home_prueba /mnt/tmp_prueba
@@ -78,11 +78,11 @@ Editamos el archivo `fstab` para poner los nuevos puntos de montaje de `/home` y
 
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/42.png"/>
 
-Reiniciamos y si lo hemos hecho bien deberemos ver lo siguiente y ya podríamos borrar las carpetas temporales con las copias que hicimos por si algo fallaba:
+Reiniciamos y si lo hemos hecho bien deberemos ver lo siguiente:
 
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/43.png"/>
 
-Lo siguiente que vamos a hacer es deshabilitar el USB para los usuarios no privilegiados, para ello crearemos una lista negra con el controlador que carga el `Kernel` y permite leer estos dispositivos. Dentro de `/etc/modprobe.d/` creamos un fichero, si no está creado previamente, llamado `blacklist.conf`
+Ya podríamos borrar las carpetas temporales con las copias que hicimos por si algo fallaba. Lo siguiente que vamos a hacer es deshabilitar el USB para los usuarios no privilegiados, para ello crearemos una lista negra con el controlador que carga el `Kernel` y permite leer estos dispositivos. Dentro de `/etc/modprobe.d/` creamos un fichero, si no está creado previamente, llamado `blacklist.conf`.
 
 ~~~
 sudo nano /etc/modprobe.d/blacklist.conf
@@ -98,5 +98,5 @@ Tras esto se debe volver a reiniciar el sistema para que funcione este cambio. C
 sudo apt install -y apt-show-versions
 ~~~
 
-Y acabando este bloque, instalaremos una herramienta de auditoria de paquetes como mencionamos en el **Bloque 8** de la primera auditoria. Quería instalar `apt-listbugs`, pero este fue removido de la paquetería de `Ubuntu` en 2008 por este [motivo](https://lists.ubuntu.com/archives/ubuntu-devel/2009-June/028332.html) y no he encontrado una alternativa para esta distribución.
+Y acabando este bloque, instalaremos una herramienta de auditoria de paquetes como mencionamos en el **Bloque 8** de la primera auditoria. Quería instalar `apt-listbugs`, pero éste fue removido de la paquetería de `Ubuntu` en 2008 por este [motivo](https://lists.ubuntu.com/archives/ubuntu-devel/2009-June/028332.html) y no he encontrado una alternativa para esta distribución.
 

@@ -13,13 +13,13 @@ Ahora que hemos hecho un par de auditorías en nuestro sistema, podemos hablar d
 
 ## Pasar test por grupo específico
 
-Durante todas las entradas anteriores se han basado en una pasada completa de todos sus test por nuestro sistema. Pero existe la opción de sólo hacer un grupo de test, bien porque en ese momento nos interesa sólo comprobar la seguridad de ese apartado porque hemos implementado cambios, porque hemos implementado algo nuevo y queremos probarlo o porque no nos interese una auditoría completa. En cuyo caso, como vimos en la introducción de **Primera auditoría** podemos ver los grupos de test que hay, pero esa opción ya no es válida en la versión más moderna que hemos usado en **Segunda auditoría**, ahora se pueden ver por categorías (rendimiento, privacidad y seguridad) o por grupos (como vimos al principio)
+Durante todas las entradas anteriores se han basado en una pasada completa de todos sus test por nuestro sistema. Pero existe la opción de sólo hacer un grupo de test, bien porque en ese momento nos interesa sólo comprobar la seguridad de ese apartado porque hemos realizado cambios, porque hemos implementado algo nuevo y queremos probarlo o porque no nos interese una auditoría completa. En cuyo caso, como vimos en la introducción de **Primera auditoría** podemos ver los grupos de test que hay, pero esa opción ya no es válida en la versión más moderna que hemos usado en **Segunda auditoría**, ahora se pueden ver por categorías (rendimiento, privacidad y seguridad) o por grupos (como vimos al principio):
 
 ~~~
 sudo ./lynis show [categories|groups]
 ~~~
 
-Como anteriormente no estaba la base de datos corriendo durante la segunda auditoría, he habilitado una base de datos `MongoDB` para correr individualmente las pruebas para este propósito:
+Como anteriormente no estaba la base de datos corriendo durante la segunda auditoría, he habilitado una base de datos `MongoDB` para correr individualmente las pruebas con este propósito:
 
 ~~~
 sudo ./lynis --test-from-group "databases"
@@ -27,7 +27,7 @@ sudo ./lynis --test-from-group "databases"
 
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/91.png"/>
 
-Como vemos ha detectado la base de datos de `MongoDB` y ha comprobado las autorizaciones, deshabilitadas, para indicarnos como "peligro" que cualquier usuario puede acceder a la base de datos. veamos lo que nos dice el registro:
+Ha detectado la base de datos de `MongoDB` y ha comprobado las autorizaciones, deshabilitadas, para indicarnos como "peligro" que cualquier usuario puede acceder a la base de datos. veamos lo que nos dice el registro:
 
 ~~~
 2022-12-05 10:28:25 ====

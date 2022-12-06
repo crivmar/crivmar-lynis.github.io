@@ -44,7 +44,7 @@ sudo apachectl -M
 
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/68.png"/>
 
-Según nuestras necesidades, podemos descargarlos con el siguiente comando:
+Según nuestras necesidades, podemos deshabilitarlos con el siguiente comando:
 
 ~~~
 sudo a2dismod [nombre_módulo]

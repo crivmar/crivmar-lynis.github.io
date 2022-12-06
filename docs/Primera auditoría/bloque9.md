@@ -47,7 +47,7 @@ La última parte está centrada en las impresoras, comprueba si el *demonio* `cu
 ---
 
 Información adicional
-{: .label .label-purple}
+{: .label .label-blue}
 
-\* `sniffer`-> es una herramienta de software o hardware que permite al usuario supervisar su tráfico en Internet en tiempo real y capturar todo el tráfico de datos que entran y salen de su equipo. Algunos ejemplos serían `Wireshark`, `tcpdump`, `NetworkMiner`, `Fiddler`,etc.
+**`sniffer`-> es una herramienta de software o hardware que permite al usuario supervisar su tráfico en Internet en tiempo real y capturar todo el tráfico de datos que entran y salen de su equipo. Algunos ejemplos serían `Wireshark`, `tcpdump`, `NetworkMiner`, `Fiddler`,etc.**
 

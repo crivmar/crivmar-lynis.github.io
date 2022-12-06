@@ -46,7 +46,7 @@ También vemos el apartado `ARP monitoring software`, que no se mostraba con el 
 ...
 ~~~
 
-Vemos herramientas como `arpwatch`, esta produce un registro de emparejamientos notados de información de direcciones IP y MAC junto con marcas de tiempo, para que pueda observar con atención cuándo apareció la actividad de emparejamiento en la red. Podemos ver como se instala en este [enlace](https://es.linux-console.net/?p=548#gsc.tab=0).
+Vemos herramientas como `arpwatch`, esta produce un registro de emparejamientos anotados de información de direcciones IP y MAC junto con marcas de tiempo, para que pueda observar con atención cuándo apareció la actividad de emparejamiento en la red. Podemos ver como se instala en este [enlace](https://es.linux-console.net/?p=548#gsc.tab=0).
 
 Finaliza buscando protocolos de red poco comunes:
 
@@ -113,6 +113,9 @@ Si miramos dentro del archivo `/etc/postfix/main.cf` y buscamos por el apartado 
 Esto se puede solucionar bien desinstalando `postfix`, si no queremos que nos lleguen correos para la herramienta `AIDE` ó bien configurando totalmente o parcialmente este servidor, incluyendo la sugerencia de no mostrar información sobre nuestro sistema operativo.
 
 ---
+
+Información adicional
+{: .label .label-blue}
 
 - **ARP (Address Resolution Protocol) -> responsable de encontrar la dirección de hardware (Ethernet MAC) que corresponde a una determinada dirección IP. Para ello se envía un paquete (ARP request) a la dirección de difusión de la red (broadcast, MAC = FF FF FF FF FF FF) que contiene la dirección IP por la que se pregunta, y se espera a que esa máquina (u otra) responda (ARP reply) con la dirección Ethernet que le corresponde.**
 

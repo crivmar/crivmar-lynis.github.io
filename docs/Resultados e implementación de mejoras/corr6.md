@@ -9,7 +9,7 @@ nav_order: 6
 
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/45.png"/>
 
-Los archivos borrados en uso se pueden eliminar de una manera muy simple, siempre y cuando el servidor pueda permitirse reiniciar. Si no fuera el caso, listaríamos estos con `lsof`:
+Los archivos borrados en uso se pueden eliminar de una manera muy simple, siempre y cuando el servidor pueda permitirse reiniciar. Si no fuera el caso, listaríamos éstos con `lsof`:
 
 ~~~
 sudo lsof | grep deleted
@@ -17,7 +17,7 @@ sudo lsof | grep deleted
 
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/46.png"/>
 
-Iriamos uno a uno comprobando los procesos por su `PID`, por ejemplo el `31269`
+Iríamos uno a uno comprobando los procesos por su `PID`, por ejemplo el `31269`
 
 ~~~
 sudo ps aux | grep 31269
@@ -29,7 +29,7 @@ Si este proceso no nos vale, lo podríamos eliminar con:
 sudo kill PID
 ~~~
 
-Continuamos añadiendo mensajes a mensajes a `/etc/issue` o `/etc/issue.net` y lo siguiente es entrar en `/etc/ssh/sshd_config` y descomentar su línea correspondiente
+Continuamos añadiendo mensajes a mensajes a `/etc/issue` o `/etc/issue.net` y lo siguiente es entrar en `/etc/ssh/sshd_config` y anular su línea correspondiente:
 
 ~~~
 Banner /etc/issue.net

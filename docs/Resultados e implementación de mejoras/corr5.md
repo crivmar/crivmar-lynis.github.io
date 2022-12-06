@@ -47,6 +47,9 @@ sudo service apache2 restart
 
 ---
 
+Información adicional
+{: .label .label-blue}
+
 - **Configuración de mod_evasive -> [Aquí](https://juantrucupei.wordpress.com/2016/09/07/instalacion-y-configuracion-de-modulo-mod_evasive-servidor-web-apache/)**
 
 - **Ataque Slowloris -> ataque de denegación de servicio que permite a una sola máquina haciendo uso de un ancho de banda mínimo. Este intenta mantener abiertas muchas conexiones al servidor web objetivo y mantenerlas abiertas el mayor tiempo posible. Lo consigue abriendo conexiones al servidor web de destino y enviando una petición parcial.**

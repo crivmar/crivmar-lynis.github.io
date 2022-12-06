@@ -9,7 +9,7 @@ nav_order: 3
 
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/56.png"/>
 
-Este apartado está reliacionado con el **Bloque 6** de la sección **Primera auditoría**. Aquí empieza de la misma forma, hasta que llega a a **métodos de hasing de contraseñas**, dónde aparece una sugerencia. Veamos que dice `auditoria2.log`:
+Este apartado está relacionado con el **Bloque 6** de la sección **Primera auditoría**. Aquí empieza de la misma forma, hasta que llega a a **métodos de hasing de contraseñas**, dónde aparece una sugerencia. Veamos que dice `auditoria2.log`:
 
 ~~~
 2022-11-29 09:22:54 ====
@@ -26,7 +26,7 @@ Si vamos al archivo `/etc/login.def` veremos cuál es el algoritmo de cifrado de
 
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/57.png"/>
 
-Vemos que es `SHA512`, que es por defecto el que se usa para cifrar las contraseñas con `passwd`, pero en este caso parece que se refiere al número de rondas y no al algoritmo en sí. Las rondas ayudan a fortaleces una clave, por ejemplo, el valor que tenemos es de 5000, esto quiere decir que un atacante tiene que calcular 5000 `hashes` para cada contraseña que pruebe contra el `hash` de `/etc/shadow`; también significa que cada vez que te conectas el ordenador debe hacer ese mismo cálculo para validar tu contraseña. Incluso si pusieramos un número de rondas mayor a 65000 un ordenador suele tardar menos de un segundo, por lo que a mayor número de rondas pongas, más difícil será calcular tu contraseña para un atacante y más recursos requerirá tu ordenador para validarla.
+Vemos que es `SHA512`, que es por defecto el que se usa para cifrar las contraseñas con `passwd`, pero en este caso parece que se refiere al número de rondas y no al algoritmo en sí. Las rondas ayudan a fortaleces una clave, por ejemplo, el valor que tenemos es de 5000, esto quiere decir que un atacante tiene que calcular 5000 `hashes` para cada contraseña que pruebe contra el `hash` de `/etc/shadow`; también significa que cada vez que te conectas el ordenador debe hacer ese mismo cálculo para validar tu contraseña. Incluso si pusiéramos un número de rondas mayor a 65000 un ordenador suele tardar menos de un segundo, por lo que a mayor número de rondas pongas, más difícil será calcular tu contraseña para un atacante y más recursos requerirá tu ordenador para validarla.
 
 Como tenemos el módulo `PAM` esto se administra ahí e inmediatamente debajo nos dice que las rondas están desahabilitadas (también se puede configurar en el otro archivo). Por lo que habría que ir a `/etc/pam.d/passwd` y añadir algo así:
 
@@ -122,6 +122,9 @@ Ya por último, que no salía en la anterior versión del programa es que está 
 
 ---
 
+Información adicional
+{: .label .label-blue}
+
 - **Hash -> Cifrado de las contraseñas tras tomar estas y aplicarles un determinado algoritmo y esta resulta en un `hash` de longitud fija o variable (dependiendo del alogritmo usado) y cuya función es aumentar la seguridad a la hora de guardar las contraseñas.**
 
-- **comando sudo -> permite a los usuarios que no son root ejecutar otros comandos que normalmente requerirían privilegios de superusuario. El archivo `/etc/sudoers` le indica al sistema cómo manejar este comando.**
+- **sudo -> comando que permite a los usuarios que no son `root` ejecutar otros comandos que normalmente requerirían privilegios de superusuario. El archivo `/etc/sudoers` le indica al sistema cómo manejar este comando.**

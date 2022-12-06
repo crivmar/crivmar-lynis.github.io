@@ -28,6 +28,6 @@ Lo siguiente que es ver si tenemos un *demonio* llamado `auditd` en nuestra máq
 
 
 Al no estar instalado pasa a la siguiente parte, *tiempo y sincronización*. Aquí se hace referencia a `NTP` (*Network Time Protocol*), se utiliza para sincronizar la hora de diferentes equipos informáticos a través de una red. Todos los dispositivos pueden sincronizar su hora con un servidor central llamado *Servidor NTP*. Este servidor puede ser un único equipo, varios equipos ó un conjunto de servidores `NTP`. Un servidor `NTP`, a su vez, puede sincronizar su hora con otro servidor `NTP` creando un sistema en cascada entre ellos. Este protocolo es capaz de sincronizar la hora de los equipos con una precisión de milisegundos.
-Se nos indica que no se ha encontrado ningun servidor propio instalado y que no hay tarea específica en los archivos de `crontab`. Luego comprueba si hay algún evento basado en `ntpdate`; en este caso es afirmativo, podemos comprobarlo en `/etc/network/if-up.d/ntpdate`. Esto indica que cada vez que se inicien las interfaces de red hará una comprobación de la hora del sistema, como cliente, con el servidor por defecto.
+Se nos indica que no se ha encontrado ningún servidor propio instalado y que no hay tarea específica en los archivos de `crontab`. Luego comprueba si hay algún evento basado en `ntpdate`; en este caso es afirmativo, podemos comprobarlo en `/etc/network/if-up.d/ntpdate`. Esto indica que cada vez que se inicien las interfaces de red hará una comprobación de la hora del sistema, como cliente, con el servidor por defecto.
 
 

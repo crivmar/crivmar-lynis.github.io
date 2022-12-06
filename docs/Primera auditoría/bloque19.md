@@ -16,4 +16,4 @@ Al principio hace referencia a la comprobación de permisos sobre los siguientes
 - `/root/.ssh`, busca en la raíz si hay una carpeta oculta para guardar pares de claves del usuario `root`.
 
 
-Esta última parte, sobre los directorios "**/home**", es también corta. Ya que se limita a comprobar si existen un registro histórico de la `shell` en los directorios personales de los usuarios, este archivo normalmente está en la ruta `/home/nombre_usuario/.bash_history`. Este archivo recoge los comandos usados por el usuario y puede ser un buen indicativo de la actividad de este en el sistema.
+Esta última parte, sobre los directorios "*/home*", es también corta. Ya que se limita a comprobar si existen un registro histórico de la `shell` en los directorios personales de los usuarios, este archivo normalmente está en la ruta `/home/nombre_usuario/.bash_history`. Este archivo recoge los comandos usados por el usuario y puede ser un buen indicativo de la actividad de este en el sistema.

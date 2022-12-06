@@ -48,7 +48,7 @@ En el apartado **Bloque 2** de la sección **Primera auditoría**, podemos ver q
 
 ~~~
 
-El siguiente apartado, [`plugins`](https://cisofy.com/lynis/plugins/) es nuevo respecto a la otra versión que hemos usado, además hay muchos de estos que son sólo para la versión `Enterprise`. Estos están escritos en `shell script`, como los test, por lo cuál permite que puedas desarrollar estos añadidos personalizados. Dentro de `Lynis` tienen la función de recoger más datos; estos pueden ser utilizados por cualquier prueba que haga el programa o combinarla con tus test personalizados; o simplemente se almacenen en los archivos de registro y herramientas de terceros puedan leerlos.
+El siguiente apartado, [`plugins`](https://cisofy.com/lynis/plugins/) es nuevo respecto a la otra versión que hemos usado, además hay muchos de estos que son sólo para la versión `Enterprise`. Estos están escritos en `shell script`, como los test, por lo cuál permite que puedas desarrollar estos añadidos personalizados. Dentro de `Lynis` tienen la función de recoger más datos; estos pueden ser utilizados por cualquier prueba que haga el programa o combinarla con tus test personalizados; o simplemente se almacenen en los archivos de registro y que herramientas de terceros puedan leerlos.
 Los añadidos tienen dos fases y se despliegan dentro del funcionamiento del programa de la siguiente manera:
 
 - **Inicio del programa.**
@@ -109,7 +109,7 @@ Como vemos busca los módulos y va descendiendo para comprobar los archivos de e
 
 ### Plugin systemd
 
-Recoge detalles de systemd. Aprovecha herramientas como systemctl y journalctl para determinar el estado del sistema:
+Recoge detalles de `systemd`. Aprovecha herramientas como `systemctl` y `journalctl` para determinar el estado del sistema:
 
 ~~~
 2022-11-29 09:22:52 --
@@ -164,7 +164,7 @@ Tras la recopilación de información anterior, aquí comienza determinando el a
 ...
 ~~~ 
 
-El servicio que encuentra es `Upstart`, es un reemplazo basado en eventos para el *demonio* `init`, el método utilizado por varios sistemas operativos tipo `Unix` para realizar tareas durante el arranque del sistema. `Init` tradicional es estrictamente síncrono, bloqueando futuras tareas hasta que la actual se haya completado. Estas deben ser definidas por adelantado, y solo pueden ser ejecutadas cuando el *demonio* cambia de estado (**cuando la máquina se arranca o se apaga**). Esto hace que no sea capaz de manejar de forma elegante varias tareas en computadoras de escritorio modernas. El modelo basado en `Upstart` supervisa tareas mientras el sistema está funcionando y responde a eventos tales como la conexión o desconexión de dispositivos extraíbles, además de contar con la gestión de servicios durante el arranque o apagado. Este sistema está siendo apartado por el de `systemd`, como esta versión es antigua todavía lo tiene en uso.
+El servicio que encuentra es `Upstart`, es un reemplazo basado en eventos para el *demonio* `init`, el método utilizado por varios sistemas operativos tipo `Unix` para realizar tareas durante el arranque del sistema. `Init` tradicional es estrictamente síncrono, bloqueando futuras tareas hasta que la actual se haya completado. Estas deben ser definidas por adelantado, y solo pueden ser ejecutadas cuando el *demonio* cambia de estado (**cuando la máquina arranca o se apaga**). Esto hace que no sea capaz de manejar de forma elegante varias tareas en computadoras de escritorio modernas. El modelo basado en `Upstart` supervisa tareas mientras el sistema está funcionando y responde a eventos tales como la conexión o desconexión de dispositivos extraíbles, además de contar con la gestión de servicios durante el arranque o apagado. Este sistema está siendo apartado por el de `systemd`, como esta versión es antigua todavía lo tiene en uso.
 
 
 Comprueba si el el arranque `UEFI` está habilitado, no es el caso, ya que no encuentra el directorio y esto nos indica que está usando `Legacy Bios` :
@@ -196,7 +196,7 @@ Detecta la presencia de `GRUB2` (Gestor de arranque) y si este está protegido c
 [?] -> No puede determina la línea de estado en /etc/init.d/
 ~~~
 
-Por último comprueba los servicios que se inician al arrancar con los script dentro de `/etc/rcN.d/` y si los permisos de estos son los correctos:
+Por último comprueba los servicios que se inician al arrancar con los `script` dentro de `/etc/rcN.d/` y si los permisos de estos son los correctos:
 
 ~~~
 2022-11-29 09:22:53 Action: checking symlink for file /etc/rc2.d/S70pppd-dns
@@ -220,6 +220,9 @@ Por último comprueba los servicios que se inician al arrancar con los script de
 
 
 ---
+
+Información adicional
+{: .label .label-blue}
 
 - **UEFI y Legacy-> Ambos hacen ,en esencia, más o menos lo mismo. Inician los componentes de hardware con comprobaciones y lanzan el sistema operativo. La diferencia radica en compatibilidades, rápidez del manejo de las comprobaciones, interfaces (en UEFI es gráfica), mejoras de seguridad,etc.**
 

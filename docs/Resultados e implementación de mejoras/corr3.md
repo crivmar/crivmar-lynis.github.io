@@ -10,7 +10,7 @@ nav_order: 3
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/33.png"/>
 
 `Linux-PAM` (*Pluggable Authentication Modules*) es un poderoso conjunto de bibliotecas compartidas que se utilizan para autenticar dinámicamente a un usuario en aplicaciones (o servicios) en un sistema Linux. `PAM` tiene el potencial de alterar seriamente la seguridad de su sistema Linux; una configuración incorrecta puede deshabilitar el acceso a su sistema parcial o completamente. Por ejemplo, una eliminación accidental de un archivo de configuración en `/etc/pam.d/*` y/o `/etc/pam.conf` puede bloquearlo de su propio sistema. 
-El archivo de configuración principal para `PAM` es `/etc/pam.conf` y el directorio `/etc/pam.d/` contiene los archivos de configuración de PAM para cada aplicación/servicio compatible con PAM. PAM ignorará el archivo si el directorio existe.
+El archivo de configuración principal para `PAM` es `/etc/pam.conf` y el directorio `/etc/pam.d/` contiene los archivos de configuración de PAM para cada aplicación/servicio compatible con `PAM`, éste ignorará el archivo si el directorio existe.
 
 En la sugerencia nos dicen que usemos la librería `pam_cracklib` ó `pam_passwdqc`. Vamos a configurar la primera, comenzando con la instalación de `libpam-cracklib`:
 
@@ -41,7 +41,7 @@ Estás son las opciones que tenemos definidas:
 - `difok=3`, número de cambio de caracteres que debe tener una nueva contraseña, respecto a la antigua.
 
 
-Vamos a cambiar algunos parámetros y dejarla tal que así:
+Vamos a cambiar algunos parámetros y dejarla así:
 
 ~~~
 password requisite pam_cracklib.so retry=2 minlen=10 difok=3 ucredit=-2 lcredit=-2 dcredit=-2 ocredit=-2
@@ -60,7 +60,7 @@ Ahora lo comprobamos cambiando la contraseña con `passwd`:
 
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/35.png"/>
 
-Ahora es el momento de añadir una fecha de cadudicad a las contraseñas de los usuarios, para ello vamos a usar el comando `chage` que está instalado por defecto:
+Ahora es el momento de añadir una fecha de caducidad a las contraseñas de los usuarios, para ello vamos a usar el comando `chage` que está instalado por defecto:
 
 ~~~
 ## Le indicamos con -E la fecha de cuándo expira la cuenta
@@ -80,9 +80,9 @@ Vemos que el último cambio de contraseña fue el `28/11/22`, la contraseña exp
 
 La última sugerencia de este bloque es cambiar el permiso base dentro de los archivos:
 
-- `/etc/login.defs`, aquí están definidas las variables que contolan los aspectos de la creación de usuarios y de los campos de `shadow` usados por defecto. 
+- `/etc/login.defs`, aquí están definidas las variables que controlan los aspectos de la creación de usuarios y de los campos de `shadow` usados por defecto. 
 
-- `/etc/init.d/rc`, en `init.d` están definidos los scripts de inicio, concretamente el `rc` se ecnarga que los scripts correspondientes sean ejecutados en el orden correcto.
+- `/etc/init.d/rc`, en `init.d` están definidos los `scripts` de inicio, concretamente el `rc` se encarga que los `scripts` correspondientes sean ejecutados en el orden correcto.
 
 <img src="https://raw.githubusercontent.com/crivmar/crivmar-lynis.github.io/main/assets/images/37.png"/>
 

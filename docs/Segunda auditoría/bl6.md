@@ -45,7 +45,7 @@ ion)
 ...
 ~~~
 
-Recibe una lista de los paquetes encontrados en el sistema y encuentra paquetes que no han sido purgados y te recomienda hacer uso del comando `dpkg --purge [nombre_del_paquete]` para eliminar a estos de la lista:
+Recibe una lista de los paquetes encontrados en el sistema y encuentra paquetes que no han sido purgados y se recomienda hacer uso del comando `dpkg --purge [nombre_del_paquete]` para eliminar a estos de la lista:
 
 ~~~
 ...

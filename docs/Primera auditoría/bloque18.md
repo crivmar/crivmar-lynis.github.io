@@ -26,4 +26,7 @@ Después pasa a los **escáneres de programas maliciosos**, tales como:
 
 ---
 
+Información adicional
+{: .label .label-blue}
+
 **rootkits -> es un conjunto de programas que permiten al usuario un acceso con privilegios a un ordenador, pero mantiene su presencia inicialmente oculta al control de los administradores al descomponer el funcionamiento normal del sistema operativo.**

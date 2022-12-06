@@ -7,7 +7,7 @@ nav_order: 1
 
 ## Correción 1 - Peligros - Versión de Lynis e Iptables
 
-Lo primero que vamos a hacer es usar la versión más reciente de `Lynis`, como lo instalamos usando el comando `apt`, vamos a desintalarlo primero; antes haremos una copia del archivo `/var/log/lynis-report.dat` para mantenerlo para futura referencia:
+Lo primero que vamos a hacer es usar la versión más reciente de `Lynis`, como lo instalamos usando el comando `apt`, vamos a desinstalarlo primero; antes haremos una copia del archivo `/var/log/lynis-report.dat` para mantenerlo para futura referencia:
 
 ~~~
 mkdir auditoria1_datos && cd auditoria1_datos
@@ -39,7 +39,7 @@ Ahora nos vamos a la carpeta `/usr/local` y clonamos el repositorio por [HTTPS](
 sudo git clone https://github.com/CISOfy/lynis.git
 ~~~
 
-Tras movernos a la carpeta del repositorio, vemos que está el ejecutrable `lynis`, el cuál usaremos para ejecutar el programa de la siguiente manera:
+Tras movernos a la carpeta del repositorio, vemos que está el ejecutable `lynis`, el cuál usaremos para ejecutar el programa de la siguiente manera:
 
 ~~~
 ./lynis [comandos]
